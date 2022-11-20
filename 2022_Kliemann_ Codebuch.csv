@@ -1,0 +1,29 @@
+CODEBUCH,
+,
+edgelist,
+from,definiert den Sender. Entspricht ID in der Nodelist
+to ,definiert den Empfänger. Entspricht ID in der Nodelist
+relationship,"definiert die Art der Beziehung: 1 = Geschäftsführer, 2 = Kooperationspartner"
+nodelist,
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  "
+name,Name oder Bezeichnung des Knotens. 
+periodstart,definiert den Anfang der Geschäftsbeziehung in Jahreszahlen
+type,"definiert die Art des Knotens: 1 = Firma, 2 = Kliemanns Firmen, 3 = Person"
+,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus.."
+,
+,
+Bearbeitungshinweise,
+"Achten Sie bitte auf die Kommentare in den Spalten. Diese erklären genauer, welche Daten erfasst werden. ",
+"Sie sehen die Kommentare, wenn Sie auf die entsprechende Spalte gehen. ",
+"Skizzieren Sie zunächst Ihr Netzwerk bzw. die Daten, die für Sie relevant sind. ",
+Welche Informationen wollen Sie erheben? Wie müssen diese erfasst sein?,
+"Legen Sie bitte im Codebuch möglichst genau fest, wie die Daten erhoben werden (Codebuch)",
+"Bitte verwenden Sie keine Sonderzeichen in der Erfassung, dazu gehören Satzzeichen, Umlaute, etc.",
+"Verpflichten Sie alle Teammitglieder darauf, das Codebuch zwingend einzuhalten. ",
+Wer seine Daten nicht sauber erstellt muss diese nachbereinigen.,
+"Dokumentieren Sie jeden Schritt Ihrer Datenerfassung mit, um dies zu rekonstruieren.",
+Nutzen Sie das Skript zur Datenbereinigung auf dem letzten Reiter!,
+"Beispiel für die Dokumentation von Codebuch, Edge- und Nodelist",
+https://github.com/hdm-crpr/226305/tree/master/data/crpr2,
+Vergeben Sie stets eindeutige Spaltenbeschriftungen. Am besten immer nur ein Begriff ohne Sonderzeichen etc.,
